@@ -1,0 +1,42 @@
+.dia {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+   margin: 1em 1em;
+   background-color: #303030;
+   padding: 1em 2em;
+   border-radius: 20px;
+}
+
+.dia__nublado {
+   background-image: linear-gradient(to right, #81999f7b, #4e3b547b);
+}
+
+.dia__sol {
+   background-image: linear-gradient(to right, #ff94627b, #d036ff7b);
+}
+
+.dia__chuva {
+   background-image: linear-gradient(to right, #aaebff7b, #6a62ff7b);
+
+}
+
+.dia__semana {
+   font-size: 1.2em;
+   font-weight: bold;
+   margin: .5em;
+}
+
+.text {
+   margin: 5px 0;
+}
+
+.temperaturas {
+   font-size: 1.2em;
+   font-weight: bold;
+   margin: .5em;
+   display: flex;
+   gap: 15px;
+   justify-content: space-around;
+}
