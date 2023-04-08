@@ -12,7 +12,7 @@ export default function HomeScreen() {
    const [previsao, setPrevisao] = useState([])
 
    useEffect(() => {
-      axios.get(`https://api.hgbrasil.com/weather?format=json-cors&key=cdc1d51e&user_ip=remote`)
+      axios.get(`https://api.hgbrasil.com/weather?format=json-cors&key=d5c9f6c8&user_ip=remote`)
          .then(resposta => {
             return resposta;
          })
