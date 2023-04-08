@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import styles from "./Previsao.module.css";
-import { BsCloudsFill, BsCloudRainFill, BsCloudLightningRainFill, BsSunFill, BsCloudSunFill, BsFillCloudMoonFill, BsFillCloudSnowFill, BsCloudFog2Fill, BsCloudHailFill, BsFillMoonStarsFill } from "react-icons/Bs"
+import { BsCloudsFill, BsCloudRainFill, BsCloudLightningRainFill, BsSunFill, BsCloudSunFill, BsFillCloudMoonFill, BsFillCloudSnowFill, BsCloudFog2Fill, BsCloudHailFill, BsFillMoonStarsFill } from "react-icons/bs"
 
 export default function PrevisaoCard({ min, max, description, rain_probability, weekday, condition, dia}) {
    return (

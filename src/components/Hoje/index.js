@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import styles from "./Hoje.module.css";
-import { BsCloudsFill, BsCloudRainFill, BsCloudLightningRainFill, BsSunFill, BsCloudSunFill, BsFillCloudMoonFill, BsFillCloudSnowFill, BsCloudFog2Fill, BsCloudHailFill, BsFillMoonStarsFill } from "react-icons/Bs"
+import { BsCloudsFill, BsCloudRainFill, BsCloudLightningRainFill, BsSunFill, BsCloudSunFill, BsFillCloudMoonFill, BsFillCloudSnowFill, BsCloudFog2Fill, BsCloudHailFill, BsFillMoonStarsFill } from "react-icons/bs"
 
 export default function Hoje({ city, currently, description, temp, time, wind_speedy, date, condition_slug, sunset, sunrise }) {
    return (
