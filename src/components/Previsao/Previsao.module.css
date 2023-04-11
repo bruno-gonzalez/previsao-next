@@ -10,16 +10,15 @@
 }
 
 .dia__nublado {
-   background-image: linear-gradient(to right, #81999f7b, #4e3b547b);
+   background-image: linear-gradient(to right, #81999f, #4e3b54);
 }
 
 .dia__sol {
-   background-image: linear-gradient(to right, #ff94627b, #d036ff7b);
+   background-color: #303030;
 }
 
 .dia__chuva {
-   background-image: linear-gradient(to right, #aaebff7b, #6a62ff7b);
-
+   background-color: #303030;
 }
 
 .dia__semana {

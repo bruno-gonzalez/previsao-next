@@ -4,7 +4,7 @@
    align-items: center;
    flex-flow: column;
    margin: 1em;
-   background-image: linear-gradient(to right, #ff94627b, #d036ff7b);
+   background-image: linear-gradient(to right, #ff51007b, #c300ff7b);
    border-radius: 20px;
    padding: 1em .5em;
 }
@@ -14,7 +14,7 @@
 }
 
 .card__sol {
-   background-image: linear-gradient(to right, #ff94627b, #d036ff7b);
+   background-image: linear-gradient(to right, #ff51007b, #c300ff7b);
 }
 
 .tempo {

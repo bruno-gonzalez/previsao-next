@@ -6,7 +6,8 @@ export default function Hoje({ city, currently, description, temp, time, wind_sp
    return (
       <div className={classNames({
          [styles.card]:true,
-         [styles.card__nublado]: condition_slug == "cloudly_day"
+         [styles.card__nublado]: condition_slug == "cloudly_day",
+         [styles.card__nublado]: condition_slug =="rain"
       })}>
          <h1 className={styles.cidade}>{city}</h1>
          <span>{currently} - {date} - Atualizado: {time}</span>
@@ -14,7 +15,7 @@ export default function Hoje({ city, currently, description, temp, time, wind_sp
             {condition_slug == "rain"  && <BsCloudRainFill size={40} />}   {/* Chovendo */}
             {condition_slug == "cloud" && <BsCloudsFill size={40} />}   {/* Nublado */}   
             {condition_slug == "storm" && <BsCloudLightningRainFill size={40} />}   {/*Tempestade*/}   
-            {condition_slug == "clear_day" && <BsSunFill size={40} />}  {/* Dia Limpo */}   
+            {condition_slug == "clear_day" && <BsSunFill color="#fd8700" size={40} />}  {/* Dia Limpo */}   
             {condition_slug == "clear_night" && <BsFillMoonStarsFill size={40} />}   {/* Noite Limpa*/}   
             {condition_slug == "cloudly_day" && <BsCloudSunFill size={40} />} {/*Dia Nublado */}   
             {condition_slug == "cloudly_night" && <BsFillCloudMoonFill size={40} />}  {/* Noite Nublada*/}   
