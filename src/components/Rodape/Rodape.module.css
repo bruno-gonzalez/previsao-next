@@ -1,4 +1,8 @@
 .rodape {
+   width: 100%;
+   display: block;
+   position: absolute;
+   top:95.1vh;
    padding: 1em;
    text-align: center;
    background-color: #303030;
