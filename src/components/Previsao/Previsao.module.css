@@ -9,18 +9,6 @@
    border-radius: 20px;
 }
 
-.dia__nublado {
-   background-image: linear-gradient(to right, #81999f, #4e3b54);
-}
-
-.dia__sol {
-   background-color: #303030;
-}
-
-.dia__chuva {
-   background-color: #303030;
-}
-
 .dia__semana {
    font-size: 1.2em;
    font-weight: bold;

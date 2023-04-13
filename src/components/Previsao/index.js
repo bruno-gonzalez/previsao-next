@@ -5,10 +5,7 @@ import { BsCloudsFill, BsCloudRainFill, BsCloudLightningRainFill, BsSunFill, BsC
 export default function PrevisaoCard({ min, max, description, rain_probability, weekday, condition, dia}) {
    return (
       <div className={classNames({
-         [styles.dia]:true,
-         [styles.dia__nublado]: condition == "cloudly_day" || condition == "cloud",
-         [styles.dia__sol]: condition == "clear_day",
-         [styles.dia__chuva]: condition == "rain",
+         [styles.dia]:true
       })}>
          <h3 className={styles.dia__semana}>{weekday} - {dia}</h3>
          {condition == "rain" && <BsCloudRainFill color="#3680ff" size={40} />}   {/* Chovendo */}
