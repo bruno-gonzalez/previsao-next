@@ -6,8 +6,15 @@
    padding: 1em;
    text-align: center;
    background-color: #303030;
+   margin-top: 3em;
 }
 
 .rodape a  {
    font-weight: bold;
+}
+
+@media screen and (min-width: 1500px) {
+   .rodape {
+      margin: 0;
+   }
 }
